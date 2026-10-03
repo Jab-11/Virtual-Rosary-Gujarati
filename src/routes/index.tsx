@@ -66,6 +66,10 @@ function RosaryApp() {
   const currentMystery = currentDecade !== null ? mysteries[currentDecade] : undefined;
   const mysteryImage = currentMystery?.image ?? mysteries[0]?.image ?? "";
 
+  const mysteryImageUrl = mysteryImage.startsWith("/")
+    ? `${import.meta.env.BASE_URL}${mysteryImage.slice(1)}`
+    : mysteryImage;
+
   const move = useCallback((delta: number) => {
     setStep((s) => Math.max(0, Math.min(sequence.length, s + delta)));
   }, []);
@@ -172,7 +176,7 @@ function RosaryApp() {
             theme={theme}
             activeBeadId={activeBeadId}
             doneIds={doneIds}
-            image={mysteryImage}
+            image={mysteryImageUrl}
             imageVisible={!showMysteryCard}
           />
         </div>
@@ -194,7 +198,7 @@ function RosaryApp() {
       {showMysteryCard && current.type === "mystery" && currentMystery && (
         <div className="absolute inset-0 z-20 animate-fade-in">
           <img
-            src={currentMystery.image}
+            src={mysteryImageUrl}
             alt=""
             width={1024}
             height={1024}
