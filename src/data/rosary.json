@@ -1,0 +1,202 @@
+{
+  "app": {
+    "title": "પવિત્ર ગુલાબમાળા",
+    "subtitle": "સૌ ઘેર ઘેર માળા ગુલાબની જપાય",
+    "hint": "ધન્ય છે તું સ્ત્રીઓમાં, ધન્ય છે તારા ઉદરનું ફળ",
+    "backLabel": "",
+    "completeLabel": "પ્રણામ ઓ રાણી"
+  },
+  "rosary": {
+    "introHailMarys": 3,
+    "decades": 5,
+    "beadsPerDecade": 10
+  },
+  "sets": [
+    {
+      "id": "joyful",
+      "name": "આનંદના મર્મો",
+      "latin": "Joyful",
+      "day": "સોમવાર · શનિવાર",
+      "image": "joyful",
+      "theme": {
+        "bg": "#16203a",
+        "bgGlow": "#2b3a63",
+        "text": "#fdf6e6",
+        "muted": "#b9c4e0",
+        "chain": "#c8a55a",
+        "beadIdle": "#41507a",
+        "beadDone": "#e2a7b4",
+        "beadActive": "#ffe6a8",
+        "ourFather": "#d7b46a",
+        "accent": "#f3c96b"
+      }
+    },
+    {
+      "id": "sorrowful",
+      "name": "દુઃખના મર્મો",
+      "latin": "Sorrowful",
+      "day": "મંગળવાર · શુક્રવાર",
+      "image": "sorrowful",
+      "theme": {
+        "bg": "#190d12",
+        "bgGlow": "#3c1620",
+        "text": "#f5e9e2",
+        "muted": "#c2a49a",
+        "chain": "#9c8351",
+        "beadIdle": "#4a2630",
+        "beadDone": "#8e2436",
+        "beadActive": "#e8c987",
+        "ourFather": "#b08a4a",
+        "accent": "#c9903f"
+      }
+    },
+    {
+      "id": "glorious",
+      "name": "વૈભવના મર્મો",
+      "latin": "Glorious",
+      "day": "બુધવાર · રવિવાર",
+      "image": "glorious",
+      "theme": {
+        "bg": "#0f1b33",
+        "bgGlow": "#27407a",
+        "text": "#fff8e4",
+        "muted": "#c6d3ef",
+        "chain": "#e0bc6a",
+        "beadIdle": "#2e4173",
+        "beadDone": "#6f9bdd",
+        "beadActive": "#fff0bd",
+        "ourFather": "#f0d489",
+        "accent": "#ffd873"
+      }
+    },
+    {
+      "id": "luminous",
+      "name": "પ્રકાશના મર્મો",
+      "latin": "Luminous",
+      "day": "ગુરુવાર",
+      "image": "luminous",
+      "theme": {
+        "bg": "#122232",
+        "bgGlow": "#2d5573",
+        "text": "#fdfaf0",
+        "muted": "#bfd7e6",
+        "chain": "#d9bd78",
+        "beadIdle": "#2f4f68",
+        "beadDone": "#8fd0e8",
+        "beadActive": "#fff3c8",
+        "ourFather": "#efd58f",
+        "accent": "#ffe08a"
+      }
+    }
+  ],
+  "mysteries": {
+    "joyful": [
+      {
+        "prefix": "આનંદનો પહેલો મર્મ",
+        "title": "કુમારી મરિયમને દેવદૂતનો સંદેશો",
+        "image": "/images/mysteries/joyful-1.jpg"
+      },
+      {
+        "prefix": "આનંદનો બીજો મર્મ",
+        "title": "માતા મરિયમની એલિસાબેત સાથે મુલાકાત",
+        "image": "/images/mysteries/joyful-2.jpg"
+      },
+      {
+        "prefix": "આનંદનો ત્રીજો મર્મ",
+        "title": "પ્રભુ ઈસુનો જન્મ",
+        "image": "/images/mysteries/joyful-3.jpg"
+      },
+      {
+        "prefix": "આનંદનો ચોથો મર્મ",
+        "title": "મંદિરમાં બાળ ઈસુનું અર્પણ",
+        "image": "/images/mysteries/joyful-4.jpg"
+      },
+      {
+        "prefix": "આનંદનો પાંચમો મર્મ",
+        "title": "બાળ ઈસુ ખોવાયા અને મંદિરમાંથી મળી આવ્યા",
+        "image": "/images/mysteries/joyful-5.jpg"
+      }
+    ],
+    "sorrowful": [
+      {
+        "prefix": "દુઃખનો પહેલો મર્મ",
+        "title": "વાડીમાં પ્રભુ ઈસુની વેદના અને પ્રાર્થના",
+        "image": "/images/mysteries/sorrowful-1.jpg"
+      },
+      {
+        "prefix": "દુઃખનો બીજો મર્મ",
+        "title": "પ્રભુ ઈસુને ચાબખાનો માર",
+        "image": "/images/mysteries/sorrowful-2.png"
+      },
+      {
+        "prefix": "દુઃખનો ત્રીજો મર્મ",
+        "title": "પ્રભુ ઈસુને માથે કાંટાળો મુગટ",
+        "image": "/images/mysteries/sorrowful-3.jpg"
+      },
+      {
+        "prefix": "દુઃખનો ચોથો મર્મ",
+        "title": "પ્રભુ ઈસુ ખભે વધસ્તંભ લઈને ચાલ્યા",
+        "image": "/images/mysteries/sorrowful-4.jpg"
+      },
+      {
+        "prefix": "દુઃખનો પાંચમો મર્મ",
+        "title": "પ્રભુ ઈસુનું વધસ્તંભ પર મૃત્યુ",
+        "image": "/images/mysteries/sorrowful-5.jpg"
+      }
+    ],
+    "glorious": [
+      {
+        "prefix": "વૈભવનો પહેલો મર્મ",
+        "title": "પ્રભુ ઈસુનું પુનરુત્થાન",
+        "image": "/images/mysteries/glorious-1.jpg"
+      },
+      {
+        "prefix": "વૈભવનો બીજો મર્મ",
+        "title": "પ્રભુ ઈસુનું સ્વર્ગારોહણ",
+        "image": "/images/mysteries/glorious-2.jpg"
+      },
+      {
+        "prefix": "વૈભવનો ત્રીજો મર્મ",
+        "title": "પવિત્ર આત્મા પ્રેરિતો ઉપર ઊતર્યા",
+        "image": "/images/mysteries/glorious-3.jpg"
+      },
+      {
+        "prefix": "વૈભવનો ચોથો મર્મ",
+        "title": "માતા મરિયમનું સ્વર્ગમાં ઉદ્ધારણ",
+        "image": "/images/mysteries/glorious-4.jpg"
+      },
+      {
+        "prefix": "વૈભવનો પાંચમો મર્મ",
+        "title": "માતા મરિયમને સ્વર્ગમાં મુગટ પહેરાવવામાં આવ્યો",
+        "image": "/images/mysteries/glorious-5.jpg"
+      }
+    ],
+    "luminous": [
+      {
+        "prefix": "પ્રકાશનો પહેલો મર્મ",
+        "title": "પ્રભુ ઈશુનો સ્નાનસંસ્કાર",
+        "image": "/images/mysteries/luminous-1.jpg"
+      },
+      {
+        "prefix": "પ્રકાશનો બીજો મર્મ",
+        "title": "કાના ગામે લગ્ન",
+        "image": "/images/mysteries/luminous-2.jpg"
+      },
+      {
+        "prefix": "પ્રકાશનો ત્રીજો મર્મ",
+        "title": "ઈશ્વરના રાજ્યની ઘોષણા",
+        "image": "/images/mysteries/luminous-3.jpg"
+      },
+      {
+        "prefix": "પ્રકાશનો ચોથો મર્મ",
+        "title": "ઈસુનું દિવ્યરૂપ દર્શન",
+        "image": "/images/mysteries/luminous-4.jpg"
+      },
+      {
+        "prefix": "પ્રકાશનો પાંચમો મર્મ",
+        "title": "ખ્રિસ્તપ્રસાદની સ્થાપના",
+        "image": "/images/mysteries/luminous-5.jpg"
+      }
+    ]
+  }
+}
