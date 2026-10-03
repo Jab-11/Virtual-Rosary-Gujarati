@@ -12,12 +12,11 @@ export default defineConfig({
   },
 
   vite: {
+    base: "/Virtual-Rosary-Gujarati-HFYPG/",
     plugins: [
       nitro({
         preset: "node-server",
       }),
     ],
   },
-
-  base: "/Virtual-Rosary-Gujarati/",
 });
