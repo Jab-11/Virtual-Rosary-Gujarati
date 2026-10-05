@@ -94,12 +94,12 @@
       {
         "prefix": "આનંદનો પહેલો મર્મ",
         "title": "કુમારી મરિયમને દેવદૂતનો સંદેશો",
-        "image": "/images/mysteries/joyful-1.jpg"
+        "image": "/images/mysteries/joyful-1-new.jpg"
       },
       {
         "prefix": "આનંદનો બીજો મર્મ",
         "title": "માતા મરિયમની એલિસાબેત સાથે મુલાકાત",
-        "image": "/images/mysteries/joyful-2.jpg"
+        "image": "/images/mysteries/joyful-2-new.jpg"
       },
       {
         "prefix": "આનંદનો ત્રીજો મર્મ",
@@ -108,39 +108,39 @@
       },
       {
         "prefix": "આનંદનો ચોથો મર્મ",
-        "title": "મંદિરમાં બાળ ઈસુનું અર્પણ",
-        "image": "/images/mysteries/joyful-4.jpg"
+        "title": "બાળ ઈસુનું મંદિરમાં સમર્પણ",
+        "image": "/images/mysteries/joyful-4-new.jpg"
       },
       {
         "prefix": "આનંદનો પાંચમો મર્મ",
-        "title": "બાળ ઈસુ ખોવાયા અને મંદિરમાંથી મળી આવ્યા",
+        "title": "બાળ ઈસુ ખોવાયા અને મંદિરમાંથી જડયા",
         "image": "/images/mysteries/joyful-5.jpg"
       }
     ],
     "sorrowful": [
       {
         "prefix": "દુઃખનો પહેલો મર્મ",
-        "title": "વાડીમાં પ્રભુ ઈસુની વેદના અને પ્રાર્થના",
+        "title": "જેતુનવાડીમાં પ્રભુ ઈસુની વેદના ને પ્રાર્થના",
         "image": "/images/mysteries/sorrowful-1.jpg"
       },
       {
         "prefix": "દુઃખનો બીજો મર્મ",
-        "title": "પ્રભુ ઈસુને ચાબખાનો માર",
-        "image": "/images/mysteries/sorrowful-2.jpg"
+        "title": "પ્રભુ ઈસુને કોરડાનો માર",
+        "image": "/images/mysteries/sorrowful-2-new.jpg"
       },
       {
         "prefix": "દુઃખનો ત્રીજો મર્મ",
         "title": "પ્રભુ ઈસુને માથે કાંટાળો મુગટ",
-        "image": "/images/mysteries/sorrowful-3.jpg"
+        "image": "/images/mysteries/sorrowful-3.png"
       },
       {
         "prefix": "દુઃખનો ચોથો મર્મ",
-        "title": "પ્રભુ ઈસુ ખભે વધસ્તંભ લઈને ચાલ્યા",
+        "title": "ક્રૂસ ઉપાડી પ્રભુ ઈસુ કાલવારી તરફ ચાલ્યા",
         "image": "/images/mysteries/sorrowful-4.jpg"
       },
       {
         "prefix": "દુઃખનો પાંચમો મર્મ",
-        "title": "પ્રભુ ઈસુનું વધસ્તંભ પર મૃત્યુ",
+        "title": "ક્રૂસ પર પ્રભુ ઈસુનું બલિદાન",
         "image": "/images/mysteries/sorrowful-5.jpg"
       }
     ],
@@ -148,33 +148,33 @@
       {
         "prefix": "વૈભવનો પહેલો મર્મ",
         "title": "પ્રભુ ઈસુનું પુનરુત્થાન",
-        "image": "/images/mysteries/glorious-1.jpg"
+        "image": "/images/mysteries/glorious-1-new.jpg"
       },
       {
         "prefix": "વૈભવનો બીજો મર્મ",
         "title": "પ્રભુ ઈસુનું સ્વર્ગારોહણ",
-        "image": "/images/mysteries/glorious-2.jpg"
+        "image": "/images/mysteries/glorious-2-new.jpg"
       },
       {
         "prefix": "વૈભવનો ત્રીજો મર્મ",
-        "title": "પવિત્ર આત્મા પ્રેરિતો ઉપર ઊતર્યા",
+        "title": "પ્રેષિતો અને માતા મરિયમ પર પવિત્ર આત્મા ઉતરે છે",
         "image": "/images/mysteries/glorious-3.jpg"
       },
       {
         "prefix": "વૈભવનો ચોથો મર્મ",
-        "title": "માતા મરિયમનું સ્વર્ગમાં ઉદ્ધારણ",
-        "image": "/images/mysteries/glorious-4.jpg"
+        "title": "માતા મરિયમનું સ્વર્ગમાં ઉદગ્રહણ",
+        "image": "/images/mysteries/glorious-4-new.jpg"
       },
       {
         "prefix": "વૈભવનો પાંચમો મર્મ",
-        "title": "માતા મરિયમને સ્વર્ગમાં મુગટ પહેરાવવામાં આવ્યો",
-        "image": "/images/mysteries/glorious-5.jpg"
+        "title": "સ્વર્ગમાં માતા મરિયમને તાજપોશી",
+        "image": "/images/mysteries/glorious-5-new.jpg"
       }
     ],
     "luminous": [
       {
         "prefix": "પ્રકાશનો પહેલો મર્મ",
-        "title": "પ્રભુ ઈશુનો સ્નાનસંસ્કાર",
+        "title": "પ્રભુ ઈશુનો યર્દન નદીમાં સ્નાનસંસ્કાર",
         "image": "/images/mysteries/luminous-1.jpg"
       },
       {
@@ -194,7 +194,7 @@
       },
       {
         "prefix": "પ્રકાશનો પાંચમો મર્મ",
-        "title": "ખ્રિસ્તપ્રસાદની સ્થાપના",
+        "title": "પરમપ્રસાદની સ્થાપના",
         "image": "/images/mysteries/luminous-5.jpg"
       }
     ]

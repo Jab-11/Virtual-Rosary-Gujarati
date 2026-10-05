@@ -184,7 +184,7 @@ function RosaryApp() {
 
       {/* Header: current mystery */}
       {currentMystery && !showMysteryCard && !finished && (
-        <div className="pointer-events-none absolute inset-x-0 top-10 z-20 animate-fade-in text-center">
+        <div className="pointer-events-none absolute inset-x-0 top-70 left-10 z-20 w-64 animate-fade-in text-left">
           <p className="text-xl tracking-[0.3em]" style={{ color: theme.muted }}>
             {currentMystery.prefix}
           </p>
