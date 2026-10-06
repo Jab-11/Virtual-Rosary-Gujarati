@@ -125,3 +125,14 @@ export const sequence = buildSequence();
 export const beadOrder: string[] = sequence
   .filter((s): s is Extract<Step, { type: "bead" }> => s.type === "bead")
   .map((s) => s.beadId);
+
+export type DecadeProgress = { index: number; total: number };
+
+/** Position of a Hail Mary bead within its decade, e.g. bead 7 of 10. Null for any other bead. */
+export function decadeProgress(beadId: string | null): DecadeProgress | null {
+  if (!beadId) return null;
+  const match = beadId.match(/^d\d+-hm(\d+)$/);
+  if (!match) return null;
+  return { index: Number(match[1]), total: data.rosary.beadsPerDecade };
+}
+ 

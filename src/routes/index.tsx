@@ -2,7 +2,15 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import RosaryVisual from "@/components/RosaryVisual";
-import { artwork, beadOrder, getSet, mysteriesFor, rosaryData, sequence } from "@/lib/rosary";
+import {
+  artwork,
+  beadOrder,
+  decadeProgress,
+  getSet,
+  mysteriesFor,
+  rosaryData,
+  sequence,
+} from "@/lib/rosary";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -64,6 +72,8 @@ function RosaryApp() {
 
   const showMysteryCard = !finished && current?.type === "mystery";
   const currentMystery = currentDecade !== null ? mysteries[currentDecade] : undefined;
+  const progress = decadeProgress(activeBeadId);
+  const showHeader = !finished && !showMysteryCard && Boolean(currentMystery);
   const mysteryImage = currentMystery?.image ?? mysteries[0]?.image ?? "";
 
   const mysteryImageUrl = mysteryImage.startsWith("/")
@@ -182,15 +192,33 @@ function RosaryApp() {
         </div>
       </div>
 
-      {/* Header: current mystery */}
-      {currentMystery && !showMysteryCard && !finished && (
-        <div className="pointer-events-none absolute inset-x-0 top-70 left-10 z-20 w-64 animate-fade-in text-left">
-          <p className="text-xl tracking-[0.3em]" style={{ color: theme.muted }}>
-            {currentMystery.prefix}
-          </p>
-          <h2 className="mt-2 text-4xl" style={{ color: theme.accent }}>
-            {currentMystery.title}
-          </h2>
+      {/* Header: current mystery / prayer */}
+      {showHeader && (
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-20 flex w-1/4 animate-fade-in items-center px-10">
+          <div className="text-left">
+            {currentMystery && (
+              <>
+                <p className="text-xl tracking-[0.3em]" style={{ color: theme.muted }}>
+                  {currentMystery.prefix}
+                </p>
+                <h2 className="mt-2 text-4xl" style={{ color: theme.accent }}>
+                  {currentMystery.title}
+                </h2>
+              </>
+            )}
+            {progress && (
+              <div
+                className="mt-4 inline-flex items-center rounded-full border px-3 py-1 text-base tracking-wide"
+                style={{
+                  borderColor: `${theme.chain}55`,
+                  backgroundColor: `${theme.bg}66`,
+                  color: theme.text,
+                }}
+              >
+                {progress.index} / {progress.total}
+              </div>
+            )}
+          </div>
         </div>
       )}
 
@@ -235,3 +263,4 @@ function RosaryApp() {
     </main>
   );
 }
+ 

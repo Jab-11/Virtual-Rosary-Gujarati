@@ -3,13 +3,17 @@
     "title": "પવિત્ર ગુલાબમાળા",
     "subtitle": "સૌ ઘેર ઘેર માળા ગુલાબની જપાય",
     "hint": "ધન્ય છે તું સ્ત્રીઓમાં, ધન્ય છે તારા ઉદરનું ફળ",
-    "backLabel": "",
+    "backLabel": "પાછા",
     "completeLabel": "પ્રણામ ઓ રાણી"
   },
   "rosary": {
     "introHailMarys": 3,
     "decades": 5,
     "beadsPerDecade": 10
+  },
+  "prayers": {
+    "ourFather": "હે અમારા બાપ",
+    "hailMary": "પ્રણામ મારિયા"
   },
   "sets": [
     {
@@ -19,16 +23,16 @@
       "day": "સોમવાર · શનિવાર",
       "image": "joyful",
       "theme": {
-        "bg": "#16203a",
-        "bgGlow": "#2b3a63",
-        "text": "#fdf6e6",
-        "muted": "#b9c4e0",
-        "chain": "#c8a55a",
-        "beadIdle": "#41507a",
-        "beadDone": "#e2a7b4",
-        "beadActive": "#ffe6a8",
+        "bg": "#18233f",
+        "bgGlow": "#2f416b",
+        "text": "#fdf8e8",
+        "muted": "#c8d0e3",
+        "chain": "#c9a85b",
+        "beadIdle": "#46557d",
+        "beadDone": "#d9a6b2",
+        "beadActive": "#fff0b5",
         "ourFather": "#d7b46a",
-        "accent": "#f3c96b"
+        "accent": "#f2c96b"
       }
     },
     {
@@ -57,16 +61,16 @@
       "day": "બુધવાર · રવિવાર",
       "image": "glorious",
       "theme": {
-        "bg": "#0f1b33",
-        "bgGlow": "#27407a",
+        "bg": "#180a24",
+        "bgGlow": "#3d165f",
         "text": "#fff8e4",
-        "muted": "#c6d3ef",
-        "chain": "#e0bc6a",
-        "beadIdle": "#2e4173",
-        "beadDone": "#6f9bdd",
+        "muted": "#eee4c4",
+        "chain": "#d1af47",
+        "beadIdle": "#3f205b",
+        "beadDone": "#f0c442",
         "beadActive": "#fff0bd",
-        "ourFather": "#f0d489",
-        "accent": "#ffd873"
+        "ourFather": "#e2af36",
+        "accent": "#facc42"
       }
     },
     {
@@ -76,12 +80,12 @@
       "day": "ગુરુવાર",
       "image": "luminous",
       "theme": {
-        "bg": "#122232",
-        "bgGlow": "#2d5573",
+        "bg": "#0e262f",
+        "bgGlow": "#1e5367",
         "text": "#fdfaf0",
-        "muted": "#bfd7e6",
+        "muted": "#bfe6e6",
         "chain": "#d9bd78",
-        "beadIdle": "#2f4f68",
+        "beadIdle": "#2b5564",
         "beadDone": "#8fd0e8",
         "beadActive": "#fff3c8",
         "ourFather": "#efd58f",
@@ -200,3 +204,4 @@
     ]
   }
 }
+ 
